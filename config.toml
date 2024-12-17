@@ -1,4 +1,4 @@
-baseURL = "https://visualprogramming.net/"
+baseURL = "https://vvvv.org/"
 languageCode = "en-us"
 paginate = 20
 paginatePath = "page"
@@ -63,7 +63,7 @@ blog = '/blog/:sections[1]/:slug'
 
 		# Navigation
 		[params.navigation]
-		brand 		= "visualprogramming.net"
+		brand 		= "vvvv.org"
 
 		[params.navigation.links]
 		features  = "Features"
@@ -125,14 +125,14 @@ blog = '/blog/:sections[1]/:slug'
 		[params.Download.gamma.previewWindow]
 		Title = "Latest Previews"
 		Subtitle ="Don't use for production!"
-		Text = 'These are daily development builds. If you find one to be broken, try an earlier one.<p>Please mark problems you report in the <a href="https://discourse.vvvv.org/c/vvvv-gamma/" target="_blank">forum</a> with the *preview* tag or visit us in the <a href="https://app.element.io/#/room/#vvvv:matrix.org" target="_blank">chat</a> to talk about issues you encounter.</p>'
+		Text = 'These are daily development builds. If you find one to be broken, try an earlier one.<p>Please mark problems you report in the <a href="https://forum.vvvv.org/c/vvvv-gamma/" target="_blank">forum</a> with the *preview* tag or visit us in the <a href="https://app.element.io/#/room/#vvvv:matrix.org" target="_blank">chat</a> to talk about issues you encounter.</p>'
 
 		
 		[params.Download.beta]
 		Headline = "vvvv beta"
 		Copy = "In development since 2001, vvvv beta has been used by many companies worldwide to create large media environments."
-		Text  = "Go to vvvv.org"
-		Link = "https://vvvv.org/downloads"
+		Text  = "Download vvvv beta"
+		Link = "https://legacy.vvvv.org/downloads"
 		Target = "_blank"
 
 		[params.Showcase]
@@ -165,7 +165,7 @@ blog = '/blog/:sections[1]/:slug'
 		imgAlt = "vvvv Forum"
 		title = "Forum"
 		description = "Get answers to your questions or find them in existing discussions in the vvvv forum."
-		link = "https://discourse.vvvv.org/c/vvvv-gamma"
+		link = "https://forum.vvvv.org/c/vvvv-gamma"
 		text = "Open Forum"
 
 		[[params.Community.list]]
